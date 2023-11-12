@@ -1,0 +1,2 @@
+class SightseeingStop < ApplicationRecord
+end

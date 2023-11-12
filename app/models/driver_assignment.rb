@@ -1,0 +1,2 @@
+class DriverAssignment < ApplicationRecord
+end
