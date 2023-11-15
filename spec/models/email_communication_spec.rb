@@ -1,5 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe EmailCommunication, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  attributes = [
+    {user: :belong_to},
+    {email_detail: :presence},
+  ]
+
+  include_examples("model_shared_spec", :email_communication, attributes)
 end
