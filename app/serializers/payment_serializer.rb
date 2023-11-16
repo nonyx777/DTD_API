@@ -1,3 +1,3 @@
 class PaymentSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :payment_method
 end

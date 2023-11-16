@@ -1,3 +1,3 @@
 class DriverAssignmentSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :booking_id, :driver_id
 end
