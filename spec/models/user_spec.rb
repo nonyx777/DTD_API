@@ -8,6 +8,7 @@ RSpec.describe User, type: :model do
     {full_name: :presence},
     {phone_number: :presence},
     {email: :presence},
+    {profile_photo: :presence},
     {password_digest: [:presence, {length: [[:is_at_least, 8]]}]},
   ]
 

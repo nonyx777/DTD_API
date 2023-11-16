@@ -1,3 +1,3 @@
 class SightseeingStopSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :stop_name, :description
 end
